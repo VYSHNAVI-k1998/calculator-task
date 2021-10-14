@@ -1,0 +1,46 @@
+body{
+    background: whitesmoke;
+}
+.boom{
+background: darkgrey ;
+box-shadow:2px 2px 10px black ;
+
+border-radius: 10px ;
+position: absolute;
+top:20% ;
+left:30% ;
+height: fit-content;
+padding: 10px;
+margin: 2px;
+}
+
+.pogo{
+    height: 40px;
+}
+.cartoon{
+   
+    height: fit-content;
+    padding: 1px;
+}
+.nick{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0px;
+}
+#calci{
+    height: 100% ;
+    background: lightgrey;
+    border: 2px solid black;
+    border-radius: 10px ;
+    height: 40px;
+}
+.calc{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    box-shadow:2px 2px 5px black ;
+    font-weight: bold;
+}
+

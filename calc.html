@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>claculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+
+    <div class="boom">  
+        <form name="cal" action="calc.html" method="post">
+        <div class="pogo">
+<input type="text" placeholder="try_me..." id="calci" name="ans">
+        </div>
+        <br>
+       
+        <div class="cartoon">
+            <div class="nick">
+                <input type="button" value="7" class="calc" onclick="cal.ans.value+='7'">
+                <input type="button" value="8" class="calc" onclick="cal.ans.value+='8'">
+                <input type="button" value="9" class="calc" onclick="cal.ans.value+='9'">
+                <input type="button" value="c" class="calc" onclick="cal.ans.value=''">
+
+            </div>
+            <div class="nick">
+                <input type="button" value="4" class="calc" onclick="cal.ans.value+='4'">
+                <input type="button" value="5" class="calc" onclick="cal.ans.value+='5'">
+                <input type="button" value="6" class="calc" onclick="cal.ans.value+='6'">
+                <input type="button" value="-" class="calc" onclick="cal.ans.value+='-'">
+                 
+            </div>
+            <div class="nick">
+                <input type="button" value="1" class="calc" onclick="cal.ans.value+='1'">
+                <input type="button" value="2" class="calc" onclick="cal.ans.value+='2'">
+                <input type="button" value="3" class="calc" onclick="cal.ans.value+='3'">
+                <input type="button" value="+" class="calc" onclick="cal.ans.value+='+'">
+
+            </div>
+            <div class="nick">
+                <input type="button" value="/" class="calc" onclick="cal.ans.value+='/'">
+                <input type="button" value="0" class="calc" onclick="cal.ans.value+='0'">
+                <input type="button" value="*" class="calc" onclick="cal.ans.value+='*'">
+                <input type="button" value="=" class="calc" onclick="cal.ans.value=eval(cal.ans.value)">
+                </div>
+            
+
+
+        </div>
+    </form>
+    </div>
+</body>
+</html>
